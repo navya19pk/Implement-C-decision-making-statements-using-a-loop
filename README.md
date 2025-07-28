@@ -32,6 +32,16 @@ This program uses a for loop to print the word “SIT” five times, each time w
 
 The continue statement in C++ is used inside loops to skip the current iteration and move directly to the next one. When the program hits continue, it ignores any code that comes after it in the loop for that specific cycle. It's helpful for filtering out values or conditions you want to avoid without breaking the loop completely. This program prints odd numbers from 1 to 9 using a for loop and the continue statement. The loop runs from 1 to 9, and for each number, it checks whether the number is even using i % 2 == 0. If the number is even, continue skips the rest of the loop for that iteration. If the number is odd, it prints the number. This is a basic way to understand how skipping specific values in a loop works using conditions.
 
+Algorithm:
+
+Step- 1: Start
+Step- 2: Use a for loop from i = 1 to i < 10
+Step- 3: Inside the loop:
+If i % 2 == 0, use continue to skip the iteration
+Step- 4: Else, print the value of i
+Step- 5: Loop continues until i = 9
+Step- 6: End
+
 #Program d: STAR pattern-1
 
 This program uses nested loops to print a triangular star pattern. The outer loop runs from 1 to 6, controlling the number of rows. For each row, the inner loop prints stars equal to the row number. After printing stars in each row, a newline character is added to start a new row.
@@ -108,9 +118,32 @@ Step- 14: END
 
 This program prints a number triangle using nested for loops and a counter variable. It starts with a = 1 and increases a with each printed value. The outer loop controls the rows, running from 0 to 3. The inner loop prints numbers in each row, starting with one number in the first row and increasing by one in each subsequent row. The pattern is formed by incrementing a using a++ for every printed number, creating a neat triangle of numbers from 1 to 10.
 
+Algorithm:
+
+Step- 1: Start
+Step- 2: Initialize a variable a = 1
+Step- 3: Use an outer loop from i = 0 to i <= 3 (for rows)
+Inside it, use an inner loop from j = 0 to j <= i
+Print the current value of a
+Increment a by 1
+After the inner loop, print a newline
+Step- 4: End
+
+
 #Program i: Printing 1-20
 
 This program uses a for loop to print numbers from 1 to 20, with each number on a separate line. The loop starts with i = 1 and continues until i <= 20, incrementing i by 1 in each iteration. Inside the loop, cout << i displays the current value of i, and cout << endl moves to the next line after printing each number.
+
+Algorithm:
+
+Step- 1: Start
+Step- 2: Use a for loop with:
+Initialization: i = 1
+Condition: i <= 20
+Increment: i++
+Step- 3: Inside the loop, print the value of i followed by a space.
+Step- 4: After the loop ends, return 0.
+Step- 5: End
 
 #Program j: Authenticate the password
 
