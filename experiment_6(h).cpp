@@ -1,3 +1,7 @@
+// Navya Pawan Khajuria 
+// 24070123151
+// B3
+
 #include <iostream>
 using namespace std;
 int main (){
@@ -10,10 +14,9 @@ int main (){
         return 0;
     }
 
-/*
-output:
-1 
-2 3 
-4 5 6 
-7 8 9 10 
-*/
+//Output:
+//1 
+//2 3 
+//4 5 6 
+//7 8 9 10 
+
