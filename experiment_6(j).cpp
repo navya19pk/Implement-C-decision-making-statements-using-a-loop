@@ -1,3 +1,7 @@
+// Navya Pawan Khajuria 
+// 24070123151
+// B3
+
 #include <iostream>
 using namespace std;
 
@@ -19,8 +23,7 @@ int main() {
 return 0;
 }
 
-
-/*output: 
+//output: 
 enter the password : 
 navya
 try again
@@ -29,4 +32,5 @@ enter the password :
 try again
 enter the password : 
 019
-correct!! */
+correct!! 
+    //
